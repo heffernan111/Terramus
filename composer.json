@@ -1,0 +1,30 @@
+{
+   "name": "terram/terram",
+   "description": "Terram PHP App",
+   "keywords": ["app", "terram"],
+   "type": "project",
+   "license": "MIT",
+   "authors": [
+       {
+           "name": "terram",
+           "email": "david.heff.dh@gmail.com"
+       }
+   ],
+   "autoload": {
+      "files": [
+       ],
+       "psr-4": {
+           "App\\": "app/",
+           "Framework\\": "framework/"
+       }
+   },
+   "require": {
+       "vlucas/phpdotenv": "~2.2"
+   },
+   "config": {
+       "sort-packages": true,
+       "optimize-autoloader": true
+   },
+   "minimum-stability": "dev",
+   "prefer-stable": true
+}
